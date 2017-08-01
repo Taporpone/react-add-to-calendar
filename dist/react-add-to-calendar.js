@@ -606,7 +606,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var calendarUrl = "";
 
 	      // allow mobile browsers to open the gmail data URI within native calendar app
-	      type = type == "google" && this.isMobile() ? "outlook" : type;
+	      // type = (type == "google" && this.isMobile()) ? "outlook" : type;
 
 	      switch (type) {
 	        case "google":
